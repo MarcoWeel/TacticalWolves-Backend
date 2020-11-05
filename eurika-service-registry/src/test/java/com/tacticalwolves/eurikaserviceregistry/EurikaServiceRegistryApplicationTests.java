@@ -1,10 +1,10 @@
-package com.tacticalwolvesbackend.postapi;
+package com.tacticalwolves.eurikaserviceregistry;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PostApiApplicationTests {
+class EurikaServiceRegistryApplicationTests {
 
 	@Test
 	void contextLoads() {
