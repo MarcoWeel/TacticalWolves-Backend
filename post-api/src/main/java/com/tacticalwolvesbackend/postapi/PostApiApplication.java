@@ -1,13 +1,13 @@
-package com.tacticalwolves.eurikaserviceregistry;
+package com.tacticalwolvesbackend.postapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EurikaServiceRegistryApplication {
+public class PostApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurikaServiceRegistryApplication.class, args);
+		SpringApplication.run(PostApiApplication.class, args);
 	}
 
 }
