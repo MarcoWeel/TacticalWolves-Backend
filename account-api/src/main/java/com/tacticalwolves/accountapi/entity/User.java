@@ -26,7 +26,7 @@ public class User {
 }
 
 enum Role{
-    User,
+    Users,
     Member,
     Admin,
 
