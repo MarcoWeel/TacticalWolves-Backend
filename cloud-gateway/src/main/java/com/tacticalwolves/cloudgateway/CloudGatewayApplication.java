@@ -1,4 +1,4 @@
-package com.tacticalwolves.accountapi;
+package com.tacticalwolves.cloudgateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,11 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class AccountApiApplication {
+public class CloudGatewayApplication {
 
+    @LoadBalanced
     public static void main(String[] args) {
-        SpringApplication.run(AccountApiApplication.class, args);
+        SpringApplication.run(CloudGatewayApplication.class, args);
     }
 
 }

@@ -1,16 +1,15 @@
-package com.tacticalwolves.accountapi;
+package com.tacticalwolves.eventservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class AccountApiApplication {
+public class EventServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountApiApplication.class, args);
+        SpringApplication.run(EventServiceApplication.class, args);
     }
 
 }
