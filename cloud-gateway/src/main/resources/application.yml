@@ -9,7 +9,7 @@ spring:
           predicates:
             - Path=/account/**
 server:
-  port: 5012
+  port: 5010
 
 eureka:
   client:

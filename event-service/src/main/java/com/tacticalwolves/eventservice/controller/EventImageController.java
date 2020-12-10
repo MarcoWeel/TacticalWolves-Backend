@@ -16,17 +16,17 @@ public class EventImageController {
         private EventImageService service;
 
         @PostMapping("/image")
-        public EventImage addEvent(@RequestBody EventImage eventImage){return service.SaveEventImage(eventImage);}
+        public EventImage addImage(@RequestBody EventImage eventImage){return service.SaveEventImage(eventImage);}
 
         @GetMapping("/image/{Id}")
-        public EventImage findUserById(@PathVariable int Id){return service.GetEventImageById(Id);}
+        public EventImage findImageById(@PathVariable int Id){return service.GetEventImageById(Id);}
 
         @GetMapping("/image")
-        public List<EventImage> findAllUsers(){return service.GetEventImages();}
+        public List<EventImage> findAllImages(){return service.GetEventImages();}
 
         @PutMapping("/image")
-        public EventImage updateUser(@RequestBody EventImage event){return service.UpdateEvent(event);}
+        public EventImage updateImage(@RequestBody EventImage event){return service.UpdateEvent(event);}
 
         @DeleteMapping("/image/{Id}")
-        public String deleteUser(@PathVariable int Id){return service.DeleteEventImageById(Id);}
+        public String deleteImage(@PathVariable int Id){return service.DeleteEventImageById(Id);}
 }

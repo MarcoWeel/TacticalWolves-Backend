@@ -8,6 +8,6 @@ eureka:
     hostname: localhost
 spring:
   application:
-    name: ACCOUNT-SERVICE
+    name: POST-SERVICE
 server:
-  port: 5012
+  port: 5016
